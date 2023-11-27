@@ -1,0 +1,145 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    background-color: black;
+}
+
+/*Header*/ 
+header {
+    position: fixed; 
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px;
+    border-color: seashell;
+    z-index: 100;
+    background-color: black;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+
+}
+
+
+header nav ul {
+    display: flex;
+    
+
+}
+
+nav li {
+    list-style-type: none;
+    padding-right: 30px; 
+}
+
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    text-decoration: underline;
+    color: seashell;
+}
+
+/*Our Mission section*/
+
+#our-mission {
+    background-image: url('../images/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+}
+
+#title {
+    background-color: black;
+    justify-content: center;
+    width: 1200px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    
+}
+
+
+/* Tea of Month*/ 
+
+#tea-of-month{
+    width: 1000px;
+    margin: auto;
+
+}
+
+.teas {
+    text-align: center;
+
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    gap: 10px 10px;
+
+}
+
+.images-container img {
+    height: 200px;
+    width: 300px;
+    
+}
+
+/*Locations*/ 
+
+#Location {
+    background-image: url('../images/img-locations-background.jpg');
+    height: 500px;
+    width: 1200px;
+    margin:auto
+}
+
+.content-center {
+    text-align: center;
+    margin: 15px;
+    padding-top: 50px;
+}
+
+.locations-container {
+    display: flex;
+}
+
+.location-container {
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    vertical-align: baseline;
+}
+
+/*Contact*/ 
+
+.contact {
+    text-align: center;
+}
+    
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
