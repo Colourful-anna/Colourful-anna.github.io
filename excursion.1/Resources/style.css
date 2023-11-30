@@ -1,0 +1,34 @@
+html {
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+h3 {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.video-container {
+    
+}
+
+.guide h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.guide p {
+    font-size: 21px;
+    color: gray;
+
+}
+
+
